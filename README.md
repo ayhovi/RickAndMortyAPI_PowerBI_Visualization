@@ -1,5 +1,5 @@
 # RickAndMortyAPI_PowerBI_Visualization
-![Dashboard Principal](images/OIP.jpg)
+![Dashboard Principal](Images/OIP.jpg)
 *Descripción de la imagen del dashboard principal.*
 
 Este repositorio contiene un proyecto que consulta datos de la API de Rick and Morty y los visualiza utilizando Power BI. El objetivo del proyecto es demostrar cómo extraer, transformar y visualizar datos de una API pública mediante herramientas de análisis de datos.
