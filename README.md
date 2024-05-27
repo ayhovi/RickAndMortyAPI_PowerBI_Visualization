@@ -27,7 +27,7 @@ Este repositorio contiene un proyecto que consulta datos de la API de Rick and M
 ## Visualizaciones en Power BI
 Aquí hay una vista previa de las visualizaciones creadas en Power BI:
 
-![Dashboard Principal](images/captura_dashboard.jpg)
+![Dashboard Principal](Images/captura_dashboard.jpg)
 *Descripción de la imagen del dashboard principal.*
 
 ![Detalle de Personajes](images/character_details.png)
