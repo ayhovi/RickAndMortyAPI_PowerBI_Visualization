@@ -1,5 +1,5 @@
 # RickAndMortyAPI_PowerBI_Visualization
-![Dashboard Principal](Images/OIP.jpg)
+![Dashboard Principal](images/OIP.jpg)
 *Descripción de la imagen del dashboard principal.*
 
 Este repositorio contiene un proyecto que consulta datos de la API de Rick and Morty y los visualiza utilizando Power BI. El objetivo del proyecto es demostrar cómo extraer, transformar y visualizar datos de una API pública mediante herramientas de análisis de datos.
@@ -29,7 +29,7 @@ Este repositorio contiene un proyecto que consulta datos de la API de Rick and M
 ## Visualizaciones en Power BI
 Aquí hay una vista previa de las visualizaciones creadas en Power BI:
 
-![Dashboard Principal](images/dashboard_main.png)
+![Dashboard Principal](images/captura_dashboard.jpg)
 *Descripción de la imagen del dashboard principal.*
 
 ![Detalle de Personajes](images/character_details.png)
@@ -60,6 +60,14 @@ characters = get_characters()
 
 # Convertir a DataFrame
 df = pd.DataFrame(characters)
+
+# Crea una nueva columna 'origin_name' extrayendo el nombre de cada ubicación
+# de la columna 'origin', donde cada entrada es un diccionario que contiene una clave 'name'.
+df['origin_name'] = df['origin'].apply(lambda x: x['name'])
+
+# Crea una nueva columna 'location_name' extrayendo el nombre de cada ubicación
+# de la columna 'location', donde cada entrada es un diccionario que contiene una clave 'name'.
+df['location_name'] = df['location'].apply(lambda x: x['name'])
 
 # Contar el número de episodios en los que aparece cada personaje
 df['episode_count'] = df['episode'].apply(lambda x: len(x))
