@@ -1,6 +1,4 @@
 # RickAndMortyAPI_PowerBI_Visualization
-![Dashboard Principal](images/OIP.jpg)
-*Descripción de la imagen del dashboard principal.*
 
 Este repositorio contiene un proyecto que consulta datos de la API de Rick and Morty y los visualiza utilizando Power BI. El objetivo del proyecto es demostrar cómo extraer, transformar y visualizar datos de una API pública mediante herramientas de análisis de datos.
 
@@ -10,19 +8,19 @@ Este repositorio contiene un proyecto que consulta datos de la API de Rick and M
 - **Power BI**: Para crear visualizaciones interactivas y dashboards.
 
 ## Contenido del Repositorio
-- `data_extraction.py`: Script en Python para obtener y procesar los datos de la API.
+- `data_extraction.ipynb`: Script en Python para obtener y procesar los datos de la API.
 - `rickandmorty_data.csv`: Archivo CSV con los datos extraídos y procesados.
 - `PowerBI_Dashboard.pbix`: Archivo de Power BI con las visualizaciones y el dashboard.
 
 ## Cómo Empezar
 1. Clona este repositorio:
     ```sh
-    git clone https://github.com/tuusuario/RickAndMortyAPI_PowerBI_Visualization.git
+    git clone https://github.com/ayhovi/RickAndMortyAPI_PowerBI_Visualization.git
     cd RickAndMortyAPI_PowerBI_Visualization
     ```
-2. Ejecuta `data_extraction.py` para obtener los datos de la API y guardarlos en un archivo CSV:
+2. Ejecuta `data_extraction.ipynb` para obtener los datos de la API y guardarlos en un archivo CSV:
     ```sh
-    python data_extraction.py
+    python data_extraction.ipynb
     ```
 3. Abre `PowerBI_Dashboard.pbix` en Power BI para ver las visualizaciones interactivas.
 
@@ -36,7 +34,7 @@ Aquí hay una vista previa de las visualizaciones creadas en Power BI:
 *Descripción de la imagen del detalle de personajes.*
 
 ## Ejemplo de Código
-### `data_extraction.pynb`
+### `data_extraction.ipynb`
 ```python
 import requests
 import pandas as pd
@@ -73,7 +71,7 @@ df['location_name'] = df['location'].apply(lambda x: x['name'])
 df['episode_count'] = df['episode'].apply(lambda x: len(x))
 
 # Seleccionar las columnas 'name', 'gender' y 'episode_count'
-new_df=df[['name','status','species','type','gender','origin_name','location_name','image','url','episode_count']]
+new_df = df[['name', 'status', 'species', 'type', 'gender', 'origin_name', 'location_name', 'image', 'url', 'episode_count']]
 
 # Exportar el DataFrame con las columnas seleccionadas a un archivo CSV
 new_df.to_csv('dataset/rickandmorty_data.csv', index=False)
