@@ -8,9 +8,9 @@ Este repositorio contiene un proyecto que consulta datos de la API de Rick and M
 - **Power BI**: Para crear visualizaciones interactivas y dashboards.
 
 ## Contenido del Repositorio
-- `data_extraction.ipynb`: Script en Python para obtener y procesar los datos de la API.
-- `rickandmorty_data.csv`: Archivo CSV con los datos extraídos y procesados.
-- `PowerBI_Dashboard.pbix`: Archivo de Power BI con las visualizaciones y el dashboard.
+- [`data_extraction.ipynb`](data_extraction.ipynb): Script en Python para obtener y procesar los datos de la API.
+- [`rickandmorty_data.csv`](dataset/rickandmorty_data.csv): Archivo CSV con los datos extraídos y procesados.
+- [`PowerBI_Dashboard.pbix`](PowerBI_Dashboard.pbix): Archivo de Power BI con las visualizaciones y el dashboard.
 
 ## Cómo Empezar
 1. Clona este repositorio:
@@ -27,11 +27,8 @@ Este repositorio contiene un proyecto que consulta datos de la API de Rick and M
 ## Visualizaciones en Power BI
 Aquí hay una vista previa de las visualizaciones creadas en Power BI:
 
-![Dashboard Principal](Images/captura_dashboard.jpg)
-*Descripción de la imagen del dashboard principal.*
-
-![Detalle de Personajes](images/character_details.png)
-*Descripción de la imagen del detalle de personajes.*
+![Dashboard Principal](Images/captura_dashboard.png)
+*El dashboard principal proporciona una visión general de los personajes de Rick and Morty, detalla la información específica de los personajes, incluyendo su origen, localización actual, y una lista de episodios en los que han aparecido.*
 
 ## Ejemplo de Código
 ### `data_extraction.ipynb`
