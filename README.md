@@ -1,11 +1,18 @@
 # RickAndMortyAPI_PowerBI_Visualization
 
+![Dashboard Principal](Images/portada.png)
+
 Este repositorio contiene un proyecto que consulta datos de la API de Rick and Morty y los visualiza utilizando Power BI. El objetivo del proyecto es demostrar cómo extraer, transformar y visualizar datos de una API pública mediante herramientas de análisis de datos.
 
 ## Tecnologías Utilizadas
 - **Python**: Para consultar y procesar los datos de la API de Rick and Morty.
 - **Pandas**: Para manipulación y limpieza de datos.
 - **Power BI**: Para crear visualizaciones interactivas y dashboards.
+[![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)]()
+[![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white&labelColor=101010)]()
+[![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white&labelColor=101010)]()
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-239120?style=for-the-badge&logoColor=white&labelColor=101010)]()
+[![Scikitlearn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white&labelColor=101010)]()
 
 ## Contenido del Repositorio
 - [`data_extraction.ipynb`](data_extraction.ipynb): Script en Python para obtener y procesar los datos de la API.
