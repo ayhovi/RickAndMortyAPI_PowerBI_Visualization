@@ -84,4 +84,4 @@ new_df.to_csv('dataset/rickandmorty_data.csv', index=False)
 
 [![Email](https://img.shields.io/badge/ayhovi@gmail.com-email_personal-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010)](mailto:ayhovi@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/Emerson_Ayhovi-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://in/emerson-ayhovi-curiñahui-guillermo/)
+[![LinkedIn](https://img.shields.io/badge/Emerson_Ayhovi-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/emerson-ayhovi-curiñahui-guillermo/)
