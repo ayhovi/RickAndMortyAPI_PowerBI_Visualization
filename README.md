@@ -25,7 +25,7 @@ Este repositorio contiene un proyecto que consulta datos de la API de Rick and M
 3. Abre `PowerBI_Dashboard.pbix` en Power BI para ver las visualizaciones interactivas.
 
 ## Visualizaciones en Power BI
-Aquí hay una vista previa de las visualizaciones creadas en Power BI:
+Aquí hay una vista previa de las visualización creada en Power BI:
 
 ![Dashboard Principal](Images/captura_dashboard.png)
 *El dashboard principal proporciona una visión general de los personajes de Rick and Morty, detalla la información específica de los personajes, incluyendo su origen, localización actual, y una lista de episodios en los que han aparecido.*
